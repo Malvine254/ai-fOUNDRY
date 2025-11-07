@@ -1,0 +1,46 @@
+body {
+  background: #f5f7fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.chat-box {
+  height: 450px;
+  overflow-y: auto;
+  border-radius: 10px;
+}
+
+.message {
+  padding: 10px 14px;
+  border-radius: 12px;
+  margin: 8px 0;
+  max-width: 80%;
+}
+
+.user-message {
+  background-color: #007bff;
+  color: white;
+  margin-left: auto;
+}
+
+.ai-message {
+  background-color: #e9ecef;
+  color: #212529;
+  margin-right: auto;
+}
+
+#file-list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#file-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#file-list li button {
+  font-size: 0.8rem;
+}

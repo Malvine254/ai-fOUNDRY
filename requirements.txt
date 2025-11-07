@@ -1,0 +1,6 @@
+Flask==3.0.3
+openai==1.14.3
+PyPDF2
+python-docx
+werkzeug
+python-dotenv
